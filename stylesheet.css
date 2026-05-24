@@ -1,0 +1,85 @@
+@font-face {
+    font-family: merriweather;
+    src: url(Merriweather/Merriweather-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: merriweatherbold;
+    src: url(Merriweather/Merriweather-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: merriweatheritalic;
+    src: url(Merriweather/Merriweather-Italic.ttf);
+    font-style: italic;
+}
+
+* {
+    margin: 0px 0px;
+    padding: 0;
+}
+
+body {
+    background-color: #f6f1e8;
+    font-family: merriweather;
+    font-size: 100%;
+    margin: 80px auto;
+    max-width: 800px;
+    padding: 0 20px;
+    -webkit-text-size-adjust: 120%;
+}
+
+h1 {
+    font-family: merriweatherbold;
+    font-size: 250%;
+    margin: 0px 0px 30px;
+}
+
+h2 {
+    font-size: 150%;
+    margin: 0px 0px 20px;
+}
+
+h3 {
+    font-style: italic;
+    font-size: 100%;
+    margin: 0px 0px 5px;
+}
+
+b {
+    font-family: merriweatherbold;
+    font-weight: bold;
+}
+
+p {
+    font-size: 100%;
+    margin: 5px 0px 5px;
+}
+
+li {
+    margin: 8px 0px 8px;
+}
+
+ol {
+    padding-inline-start: 40px;
+}
+
+ul {
+    padding-inline-start: 40px;
+}
+
+a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1e40af;
+}
+
+a:focus-visible {
+    outline: 2px solid #2563eb;
+    outline-offset: 2px;
+}
